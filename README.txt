@@ -22,8 +22,8 @@ PS: Not sure how to get that contact form working? Give formspree.io a try (it's
 
 Credits:
 
-	Demo Images:
-		Unsplash (unsplash.com)
+	Set-up:
+		Graci Su
 
 	Icons:
 		Font Awesome (fontawesome.io)
