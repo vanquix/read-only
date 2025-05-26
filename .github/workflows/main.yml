@@ -1,0 +1,29 @@
+# File: .github/workflows/github-pages.yml
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # or 'master', depending on your default branch
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: .  # Or 'dist' or wherever your site files are
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
