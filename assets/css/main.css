@@ -103,7 +103,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: #666;
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -240,7 +240,7 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-
+/*Custom CSS  */
 	.service-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -252,21 +252,32 @@ input, select, textarea {
 	}
 
 	.service-item dt {
-	font-weight: bold;
-	font-size: 1.1rem;
+	font-weight: 700;
 	margin-bottom: 0.5rem;
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
-	color: #2b2b2b;
+	
 	}
 
 	.service-item dd {
 	margin: 0;
-	color: #555;
+	
 	font-size: 0.95rem;
 	line-height: 1.5;
 	}
+	/*Custom CSS for sections*/
+	#two {
+	background-color: #f3e9ff; /* light grey */
+	}
+
+	#three {
+	background-color: #f5f2fb; /* soft warm background */
+	}
+	#four {
+	background-color: #f2f0f7; /* light grey */
+	}
+	
 
 /* Row */
 
@@ -2894,8 +2905,13 @@ ul.labeled-icons {
 
 /* Main */
 
-	#main > section {
+	/*#main > section {
 		border-top: solid 6px #f4f4f4;
+	}*/
+	
+
+	#main > section {
+		border-top: solid 6px #ffffff;
 	}
 
 		#main > section > .container {
