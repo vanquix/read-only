@@ -1793,6 +1793,12 @@ input, select, textarea {
 				max-width: calc(100% - 3.375em);
 			}
 
+			.button.button.primary {
+				margin: 1em 0 0 0; /* Example: top margin 2em, others 0 */
+				display: block;     /* Optional: makes the button full width */
+				width: 100%;        /* Optional: makes the button full width */
+				text-align: center; /* Optional: center the text */
+			}
 		}
 
 /* Section/Article */
